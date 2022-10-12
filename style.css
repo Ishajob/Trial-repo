@@ -1,0 +1,51 @@
+  /* To remove default css properties of all the elements in the document */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* To center the total layout */
+.container{
+    margin: auto;
+    width: 80%;
+   
+}
+body {
+    background-color: darkkhaki;
+}
+/* To center the top first image */
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* #centerimage{
+    text-align: center;
+} */
+
+h1,h3{
+    font-family: Verdana;
+    text-align: center;
+}
+h3{
+    background-color: aqua;
+    color: red;
+}
+p{
+    font-family: Verdana;
+}
+.Sections{
+    border:2px red solid;
+    padding: 5px;
+    overflow: auto;
+    margin-top: 10px;
+}
+.right-img{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-left:15px;
+    
+}
